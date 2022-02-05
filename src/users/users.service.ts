@@ -4,7 +4,7 @@ import { InjectModel } from "@nestjs/sequelize";
 // models
 import { User } from "./users.model";
 // dto
-import {CreateUserDto} from "./dto/create-user.dto";
+import { CreateUserDto } from "./dto/create-user.dto";
 
 
 @Injectable()
