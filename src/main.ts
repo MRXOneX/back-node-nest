@@ -2,6 +2,8 @@ import { ValidationPipe } from '@nestjs/common';
 //
 import { NestFactory } from '@nestjs/core'
 //
+import { ValidationPipe } from "./pipes/validation.pipe"
+//
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger";
 //
 import { AppModule } from "./app.module";
